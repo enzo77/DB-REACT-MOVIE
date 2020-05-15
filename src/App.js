@@ -37,7 +37,7 @@ export default function App() {
 						<Search/>
 					</Route>
 					<Route path="/movie/:id" exact={true} >
-						<Movie/>
+						<Movie />
 					</Route>
 					<Route path="*" >
 						<Error404 />
