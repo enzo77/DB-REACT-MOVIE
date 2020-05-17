@@ -24,6 +24,7 @@ export default function App() {
 			</Header>
 			<Content>
 				<Switch>
+
 					<Route path="/" exact={true} >
 						<Home/>
 					</Route>

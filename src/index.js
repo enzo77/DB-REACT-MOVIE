@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import 'antd/dist/antd.css';
 import App from './App';
+import 'rc-pagination/assets/index.css';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
