@@ -9,11 +9,11 @@ export default function PaginationMovie(props){
 
     return (
         <Pagination 
-        className="pagination"
-        current={currentPage}
-        total={totalItems}
-        pageSize={20}
-        onChange={onChangePage}
+           className="pagination"
+            current={currentPage}
+            total={totalItems}
+            pageSize={20}
+            onChange={onChangePage}
         />
     )
 }
