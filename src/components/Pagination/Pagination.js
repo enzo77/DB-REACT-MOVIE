@@ -9,7 +9,7 @@ export default function PaginationMovie(props){
 
     return (
         <Pagination 
-           className="pagination"
+            className="pagination"
             current={currentPage}
             total={totalItems}
             pageSize={20}
