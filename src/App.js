@@ -8,8 +8,8 @@ import Home from './pages/home'
 import NewMovies from './pages/new-movies'
 import Movie from './pages/movie/movie'
 import Popular from './pages/popular'
-import Search from './pages/search'
-import Error404 from './pages/error404'
+import Search from './pages/search/search'
+import Error404 from './pages/error404/error404'
 
 
 export default function App() {
@@ -32,7 +32,7 @@ export default function App() {
 						<NewMovies/>
 					</Route>
 					<Route path="/popular" exact={true} >
-						<Popular/>
+						<Popular />
 					</Route>
 					<Route path="/search" exact={true} >
 						<Search/>

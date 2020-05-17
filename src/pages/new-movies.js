@@ -1,7 +1,7 @@
 import React,{ useState , useEffect} from 'react'
-import { Row, Col } from "antd";
+import { Row, Col } from "antd"
 import { URL_API , API} from '../utils/constants'
-import Footer from '../components/Footer';
+import Footer from '../components/Footer'
 import Loading from '../components/Loading'
 import MovieCatalog from '../components/MovieCatalog'
 import Pagination from '../components/Pagination'
@@ -15,9 +15,9 @@ export default function NewMovies() {
 				const response = await fetch(`${URL_API}/movie/now_playing?api_key=${API}&lenguage=es-ES&page=${page}`)
 				const movies = await response.json()
 				setMovieList(movies)
+				window.scrollTo(0, 0)
            })()
 	 },[page])
-
 
 	 const onChangePage = page => {
 		setPage(page)
