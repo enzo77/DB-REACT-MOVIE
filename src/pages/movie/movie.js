@@ -6,7 +6,7 @@ import useFetch from '../../hooks/useFetch'
 import { URL_API , API} from '../../utils/constants'
 import Loading from '../../components/Loading'
 import ModalVideo from '../../components/ModalVideo'
-import Icon from '@ant-design/icons';
+
 import "./movie.scss";
 import { RightSquareOutlined } from '@ant-design/icons';
 
