@@ -26,7 +26,7 @@ export default function MenuTop(){
                     <Link to="/new-movies">New Movies</Link>
                 </Menu.Item>
                 <Menu.Item key="3">
-                    <Link to="/popular">Populares</Link>
+                    <Link to="/popular">Populares - 1</Link>
                 </Menu.Item>
                 <Menu.Item key="4">
                     <Link to="/search">Buscador</Link>
